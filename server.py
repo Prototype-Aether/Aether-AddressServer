@@ -1,7 +1,6 @@
 # Dictionary containing sample names and their corresponding keys
 import sample_names_dictionary as sn
-import sys
-from flask import Flask, jsonify, request, redirect, url_for
+from flask import Flask, jsonify, request
 app = Flask(__name__)
 
 # To search whether the key is already assigned to a name 
